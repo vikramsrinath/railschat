@@ -1,0 +1,9 @@
+<% title "Hangout" %>
+
+<ul id="chat">
+  <%= render @messages %>
+</ul>
+
+<%= form_for Message.new, :remote => true do |f| %>
+  <%= f.text_field :content %>
+<% end %>
