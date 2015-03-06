@@ -6,3 +6,5 @@ Configuring base rails app and installing faye and thin gem  will get you the fi
 Set your rails app to perform CRUD for messages. Messages that should perform in ajax and thus broadcast will take over in pushing the data in different browsers.
 
 Run the app in phusion apache and you will see the chat working!
+
+Reference: http://railscasts.com/episodes/260-messaging-with-faye, http://asciicasts.com/episodes/260-messaging-with-faye
